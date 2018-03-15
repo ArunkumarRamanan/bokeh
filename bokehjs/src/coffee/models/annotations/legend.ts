@@ -181,7 +181,7 @@ export class LegendView extends AnnotationView {
     return false;
   }
 
-  render() {
+  render(): void {
     if (!this.model.visible) {
       return;
     }

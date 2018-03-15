@@ -181,7 +181,7 @@ export class ColorBarView extends AnnotationView {
     return {sx, sy};
   }
 
-  render() {
+  render(): void {
     if (!this.model.visible || (this.model.color_mapper == null)) {
       return;
     }
